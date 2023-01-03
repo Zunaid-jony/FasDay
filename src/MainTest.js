@@ -10,12 +10,14 @@ import FromSections from './Components/FromSections';
 import TableItem from './Components/TableItems/TableItem'
 import Product from './Components/Product/Product'
 
+
 const MainTest = () => {
   return (
     <div>
         <Header></Header>
         <TableItem></TableItem>
         <Product></Product>
+       
         <FromSections></FromSections>
         <Tooltips></Tooltips>
         <ButtonGroub></ButtonGroub>
