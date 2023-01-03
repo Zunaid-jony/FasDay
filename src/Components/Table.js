@@ -5,11 +5,11 @@ import { Column } from 'primereact/column';
 
 const Table = () => {
     const [products, setProducts] = useState([]);
-    // const productService = new ProductService();
+  
 
     useEffect(() => {
-        // productService.getProductsSmall().then(data => setProducts(data));
-    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    
+    }, []); 
   return (
     <div>
             <div className="card">
